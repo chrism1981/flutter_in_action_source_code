@@ -1,4 +1,4 @@
-export 'package:github_client_app/common/global.dart';
+export 'common/global.dart';
 export 'models/index.dart';
 export 'states/index.dart';
 export 'routes/index.dart';
