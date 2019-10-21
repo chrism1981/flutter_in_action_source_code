@@ -27,6 +27,9 @@ class _SwitchAndCheckBoxRouteState extends State<SwitchAndCheckBoxRoute> {
             Switch(
               value: !_switchSelected,//当前状态
               onChanged:(value){
+                setState(() {
+                  _switchSelected = !value;
+                });
 
               },
             ),
